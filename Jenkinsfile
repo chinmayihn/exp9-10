@@ -10,7 +10,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                sh 'java Main.java'
+                bat 'java Main.java'
             }
         }
     }
